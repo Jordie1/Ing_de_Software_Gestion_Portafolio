@@ -6,6 +6,6 @@ Objetivo general
 Maximizar el valor y el rendimiento de los proyectos y programas de software, alineándolos de manera efectiva con los objetivos estratégicos de la organización. Esto implica la selección adecuada de proyectos, la asignación óptima de recursos, la supervisión del progreso y la adaptación constante a los cambios para garantizar la entrega exitosa de productos de software de alta calidad en tiempo y forma.
 
 Objetivo especifico
-Optimización de Recursos: Asignar recursos como personal, tiempo y presupuesto de manera eficiente para maximizar la productividad y minimizar los conflictos de recursos entre diferentes proyectos.
-
-Identificar aspectos de importancia para organizar la gestión del Portafolio de Proyectos implementando herramientas y métodos que ayuden a la gestión.
+Asignar recursos como personal, tiempo y presupuesto de manera eficiente para maximizar la productividad y minimizar los conflictos de 
+recursos entre diferentes proyectos, Identificar aspectos de importancia para organizar la gestión del Portafolio de Proyectos 
+implementando herramientas y métodos que ayuden a la gestión.
