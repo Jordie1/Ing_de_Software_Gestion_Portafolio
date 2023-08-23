@@ -1,6 +1,7 @@
 Introducción
-La Gestión De Portafolio es importante para identificar las potenciales ganancias de un proyecto.
-El objetivo sería explicar la teoría de la gestión del portafolio de proyectos, sacar las conclusiones, logro de objetivos específicos, también tiene como propósito la misión de asegurar que el portafolio sea consistente y coherente con el resto de las estrategias.
+La presente investigación se refiere al tema de la Gestión de Portafolios.
+La característica principal de este tipo de portafolios se centra en la calidad por encima de la cantidad, por ello, tienes que dar prioridad a aquellos trabajos que demuestran lo mejor de tus cualidades profesionales.
+Para analizar esta auditoria es necesario mencionar una de sus causas. Una de ellas es la falta de, desenvolvimiento en la organización de datos que conlleve a la armazón   de información.
 
 Objetivo general    
 Maximizar el valor y el rendimiento de los proyectos y programas de software, alineándolos de manera efectiva con los objetivos estratégicos de la organización. Esto implica la selección adecuada de proyectos, la asignación óptima de recursos, la supervisión del progreso y la adaptación constante a los cambios para garantizar la entrega exitosa de productos de software de alta calidad en tiempo y forma.
