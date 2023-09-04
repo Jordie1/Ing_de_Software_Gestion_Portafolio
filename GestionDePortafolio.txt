@@ -2,8 +2,8 @@
 \usepackage{sectsty}
 \usepackage{graphicx}
 
-\title{ Sistema xxxx}
-\author { Aguilar Jordie, Bagui Carlos, Rivas Genesis, Mero Alexis,     }
+\title{ Gestion de portafolio }
+\author { Aguilar Jordie, Bagui Carlos, Rivas Genesis, Mero Alexis,       }
 \date{\today}
 \begin{document}
 \maketitle
@@ -26,3 +26,11 @@ Asignar recursos como personal, tiempo y presupuesto de manera eficiente para ma
 recursos entre diferentes proyectos, Identificar aspectos de importancia para organizar la gestión del Portafolio de Proyectos 
 implementando herramientas y métodos que ayuden a la gestión.
 
+\begin{enumerate}
+\item Analizar.
+\item Diseñar. 
+\item programar.
+
+\end{enumerate}
+
+\end{document}
