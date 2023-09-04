@@ -3,7 +3,7 @@
 \usepackage{graphicx}
 
 \title{ Gestion de portafolio }
-\author { Aguilar Jordie, Bagui Carlos, Rivas Genesis, Mero Alexis,       }
+\author { Aguilar Jordie, Bagui Carlos, Rivas Genesis, Mero Alexis, Toninho Monroy }
 \date{\today}
 \begin{document}
 \maketitle
