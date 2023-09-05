@@ -23,9 +23,8 @@ Ajustar los documentos solicitados, supervisar el progreso y adáptarlo continua
 \section{Objetivo Especifico}
 
 Objetivo especifico
-Asignar recursos como personal, tiempo y presupuesto de manera eficiente para maximizar la productividad y minimizar los conflictos de 
-recursos entre diferentes proyectos, Identificar aspectos de importancia para organizar la gestión del Portafolio de Proyectos 
-implementando herramientas y métodos que ayuden a la gestión.
+Asegurar de que los documentos seleccionados se adapten a la organización del portafolio.
+Control y Monitoreo que también se encarga de controlar y monitorear el progreso de documentos en el portafolio.
 
 \begin{enumerate}
 \item Analizar.
