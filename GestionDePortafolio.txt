@@ -17,7 +17,7 @@ Para analizar esta auditoria es necesario mencionar una de sus causas. Una de el
 \section{Objetivo General}
 
 Objetivo general    
-Garantizar que los programas seleccionados estén alineados con los objetivos estratégicos de la organización. Esto implica que cada proyecto contribuya seleccionando y garantizando los documentos para la organizacion de los portafolios.
+Garantizar que los documentos seleccionados estén alineados con los objetivos estratégicos de la organización. Esto implica que cada proyecto contribuya seleccionando y garantizando los documentos para la organizacion de los portafolios.
 
 
 \section{Objetivo Especifico}
