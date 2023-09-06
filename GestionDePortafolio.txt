@@ -1,7 +1,6 @@
 \documentclass[11pt]{article} 
 \usepackage{sectsty}
 \usepackage{graphicx}
-
 \title{ Gestion de portafolio }
 \author { Aguilar Jordie, Bagui Carlos, Rivas Genesis, Mero Alexis, Toninho Monroy }
 \date{\today}
@@ -9,7 +8,7 @@
 \maketitle
 \section{Introduccion}
 
-Introducción
+Introduccion 
 La presente investigación se refiere al tema de la Gestión de Portafolios.
 La característica principal de este tipo de portafolios se centra en la calidad por encima de la cantidad, por ello, tienes que dar prioridad a aquellos trabajos que demuestran lo mejor de tus cualidades profesionales.
 Para analizar esta auditoria es necesario mencionar una de sus causas. Una de ellas es la falta de, desenvolvimiento en la organización de datos que conlleve a la armazón   de información.
