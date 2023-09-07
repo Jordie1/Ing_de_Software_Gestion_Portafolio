@@ -8,7 +8,7 @@
     </element>
     <element xsi:type="archimate:BusinessFunction" name="Business Function" id="id-118ba17d18b745b8933bff8e7c26bd48"/>
     <element xsi:type="archimate:BusinessProcess" name="capa de trabajo" id="id-2908514a31e241169150760ad4758570"/>
-    <element xsi:type="archimate:BusinessProcess" name="crear bdd" id="id-0509dddcdae24a2c8ebe60f81a4b5c78"/>
+    <element xsi:type="archimate:BusinessProcess" name="crear usuario" id="id-0509dddcdae24a2c8ebe60f81a4b5c78"/>
     <element xsi:type="archimate:BusinessProcess" name="asignar bdd" id="id-f8227a54b8964c67bee2826fada4c739"/>
     <element xsi:type="archimate:BusinessProcess" name="crear pin" id="id-83ff04f930ea49f2940d3fb253918345"/>
     <element xsi:type="archimate:BusinessActor" name="administrador" id="id-d063ad62b27748a9a9f663e3a5abd5c6"/>
