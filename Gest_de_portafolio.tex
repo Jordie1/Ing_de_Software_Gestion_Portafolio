@@ -1,33 +1,190 @@
-\documentclass[11pt]{article} 
+\documentclass[11pt]{article}
 \usepackage{sectsty}
 \usepackage{graphicx}
-
+\usepackage{multirow}
+\usepackage[left= 2cm]{geometry}
+\title{Especificación de requisitos de software}
+\author{Genesis Anjara Rivas Cardenas}
+\date{September 2023}
 \title{ Gestion de portafolio }
 \author { Aguilar Jordie, Bagui Carlos, Rivas Genesis, Mero Alexis, Toninho Monroy }
 \date{\today}
 \begin{document}
-\maketitle  
-\section{Introduccion}
 
-Introducción:
+\newpage
 
-La presente investigación se refiere al tema de la Gestión de Portafolios.
-La característica principal de este tipo de portafolios se centra en la calidad por encima de la cantidad, por ello, tienes que dar prioridad a aquellos trabajos que demuestran lo mejor de tus cualidades profesionales.
-Para analizar esta auditoria es necesario mencionar una de sus causas. Una de ellas es la falta de, desenvolvimiento en la organización de datos que conlleve a la armazón   de información.
+\vspace{2cm} 
+\begin{center}
+\Huge 
+\textbf{ESPECIFICACIÓN DE REQUISITOS DE SOFTWARE
+PROYECTO AUTOMATIZACIÓN GESTION DE
+PORTAFOLIOS}
+\end{center}
 
-\section{Objetivo General}
+\newpage
+
+\Huge
+\textbf{Ficha del documento}
+\vspace{7cm}
+
+\normalsize
+
+\begin{tabular}{|c|c|c|c|}
+\hline
+Fecha & Revisión & Líder del Proyecto & Verificación del Proyecto \\
+\hline
+\multirow{8}{*}{20/10/2023} & \multirow{8}{*}{1.1} & \multirow{8}{*}{Mero Arboleda Alexis Gabriel} & \multirow{8}{*}{ING.Stalin Francis} \\
+& & & \\
+& & & \\
+& & & \\
+& & & \\
+& & & \\
+& & & \\
+& & & \\
+\hline
+\end{tabular}
+
+\newpage
 
 
-Objetivo general:
+\section{\textbf{Introducción}}
 
-Ajustar los documentos solicitados, obserbar el progreso y adáptarlo continuamente a los cambios para garantizar la entrega oportuna de un software de alta calidad.
+Este documento es una Especificación de Requisitos de Software (ERS)
+para el Sistema de Gestión de Portafolios. La estructura de esta 
+especificación se basa en las directrices proporcionadas por el
+estándar IEEE Práctica Recomendada para Especificaciones de 
+Requisitos de Software ANSI/IEEE 830, 1998.
 
-\section{Objetivo Especifico}
+\subsection{\textbf{Propósito}}
 
-Objetivo especifico
-Asegurar de que los documentos seleccionados se adapten a la organización del portafolio.
-Control y Monitoreo que también se encarga de controlar y monitoriar el progreso de documentos en el portafolio.
+El propósito de este documento es definir las especificaciones 
+funcionales y no funcionales para el desarrollo de un sistema de
+gestión de portafolios, el cual será utilizado por instituciones
+educativas, profesores y estudiantes. Este sistema tiene como
+objetivo principal facilitar la gestión eficiente de portafolios,
+incluyendo la planificación, la comunicación y la evaluación.
 
-\end{enumerate}
+\subsection{\textbf{Alcance}}
 
-\end{document}
+Esta especificación de requisitos está dirigida a usuarios y 
+administradores del sistema de gestión de portafolios. El sistema se 
+enfoca en la gestión de portafolios en el ámbito educativo, lo que 
+incluye la planificación de programas académicos, la comunicación 
+entre profesores y estudiantes, y la evaluación del desempeño 
+académico. El software permitirá una gestión efectiva de las 
+portafolios, promoviendo un entorno de aprendizaje enriquecedor y 
+eficiente.
+\subsection{\textbf{Personal involucrado}}
+\vspace{10pt}
+
+\begin{tabular}{|c|c|}
+
+\hline
+Nombre & Alexis Gabriel Mero Arboleda  \\
+\hline
+Rol & Analista, arquitecto y desarrollador de software \\
+\hline
+Responsabilidad & Análisis de información, arquitectura y programación del Software  \\
+\hline
+Información de contacto & alexis.mero@utelvt.edu.ec \\
+\hline
+
+\end{tabular}
+
+\vspace{10pt}
+
+\begin{tabular}{|c|c|}
+
+\hline
+Nombre & Genesis Anjara Rivas Cardenas  \\
+\hline
+Rol & Analista, arquitecto y desarrollador de software \\
+\hline
+Responsabilidad & Análisis de información, arquitectura y programación del Software  \\
+\hline
+Información de contacto & genesis.rivas.cardenas@utelvt.edu.ec \\
+\hline
+
+\end{tabular}
+\vspace{10pt}
+
+\begin{tabular}{|c|c|}
+
+\hline
+Nombre & Carlos Steven Bagui Ortiz  \\
+\hline
+Rol & Analista, arquitecto y desarrollador de software \\
+\hline
+Responsabilidad & Análisis de información, arquitectura y programación del Software  \\
+\hline
+Información de contacto & carlos.bagui.ortiz@utelvt.edu.ec \\
+\hline
+
+\end{tabular}
+\vspace{10pt}
+
+\begin{tabular}{|c|c|}
+
+\hline
+Nombre & Toninho Paublo Monroy Ulloa  \\
+\hline
+Rol & Analista, arquitecto y desarrollador de software \\
+\hline
+Responsabilidad & Análisis de información, arquitectura y programación del Software  \\
+\hline
+Información de contacto & Toninho.monroy.ulloa@utelvt.edu.ec \\
+\hline
+
+\end{tabular}
+\vspace{10pt}
+
+\begin{tabular}{|c|c|}
+
+\hline
+Nombre & Jordie Jorell Aguilar Martinez \\
+\hline
+Rol & Analista, arquitecto y desarrollador de software \\
+\hline
+Responsabilidad & Análisis de información, arquitectura y programación del Software  \\
+\hline
+Información de contacto & Jordie.aquilar.martinez@utelvt.edu.ec \\
+\hline
+
+\end{tabular}
+\vspace{10pt}
+
+\subsection{\textbf{Definiciones, acrónimos y abreviaturas}}
+
+\vspace{10pt}
+
+\begin{tabular}{|c|c|}
+
+\hline
+\textit{Nombre} & \textit{Descripción}  \\
+\hline
+Usuario & Persona que usará el sistema para gestionar portafolios \\
+\hline
+SGAI & Sistema de Gestión de Portafolios Integrado \\
+\hline
+ERS & Especificación de Requisitos Software \\
+\hline
+RF & Requerimiento Funcional \\
+\hline
+RNF & Requerimiento No Funcional\\
+\hline
+FEE & Factibilidad, exactitud y eficacia \\
+\hline
+
+\end{tabular}
+
+\subsection{\textbf{Referencias}}
+
+\begin{tabular}{|c|c|}
+
+\hline
+\textit{Título de documento} & \textit{Referencias}  \\
+\hline
+Standard IEEE 830 - 1998 & IEEE-830 \\
+\hline
+
+\end{tabular}
