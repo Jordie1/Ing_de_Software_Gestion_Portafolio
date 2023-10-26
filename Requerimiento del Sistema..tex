@@ -1,16 +1,42 @@
-\documentclass[11pt]{article}
-\usepackage{sectsty}
-\usepackage{graphicx}
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[left=2cm]{geometry}
+\usepackage[left=2cm]{geometry}
 \usepackage{multirow}
-\usepackage[left= 2cm]{geometry}
 \title{Especificación de requisitos de software}
 \author{Genesis Anjara Rivas Cardenas}
 \date{September 2023}
+
+\begin{document}
+\documentclass[11pt]{article} 
+\usepackage{sectsty}
+\usepackage{graphicx}
+
 \title{ Gestion de portafolio }
 \author { Aguilar Jordie, Bagui Carlos, Rivas Genesis, Mero Alexis, Toninho Monroy }
 \date{\today}
 \begin{document}
+\maketitle  
+\section{Introduccion}
 
+Introducción:
+
+La presente investigación se refiere al tema de la Gestión de Portafolios.
+La característica principal de este tipo de portafolios se centra en la calidad por encima de la cantidad, por ello, tienes que dar prioridad a aquellos trabajos que demuestran lo mejor de tus cualidades profesionales.
+Para analizar esta auditoria es necesario mencionar una de sus causas. Una de ellas es la falta de, desenvolvimiento en la organización de datos que conlleve a la armazón   de información.
+
+\section{Objetivo General}
+
+
+Objetivo general:
+
+Ajustar los documentos solicitados, obserbar el progreso y adáptarlo continuamente a los cambios para garantizar la entrega oportuna de un software de alta calidad.
+
+\section{Objetivo Especifico}
+
+Objetivo especifico
+Asegurar de que los documentos seleccionados se adapten a la organización del portafolio.
+Control y Monitoreo que también se encarga de controlar y monitoriar el progreso de documentos en el portafolio.
 \newpage
 
 \vspace{2cm} 
@@ -33,7 +59,7 @@ PORTAFOLIOS}
 \hline
 Fecha & Revisión & Líder del Proyecto & Verificación del Proyecto \\
 \hline
-\multirow{8}{*}{20/10/2023} & \multirow{8}{*}{1.1} & \multirow{8}{*}{Mero Arboleda Alexis Gabriel} & \multirow{8}{*}{ING.Stalin Francis} \\
+\multirow{8}{}{20/10/2023} & \multirow{8}{}{1.1} & \multirow{8}{}{Mero Arboleda Alexis Gabriel} & \multirow{8}{}{ING.Stalin Francis} \\
 & & & \\
 & & & \\
 & & & \\
@@ -59,20 +85,20 @@ Requisitos de Software ANSI/IEEE 830, 1998.
 
 El propósito de este documento es definir las especificaciones 
 funcionales y no funcionales para el desarrollo de un sistema de
-gestión de portafolios, el cual será utilizado por instituciones
+gestión de asignaturas, el cual será utilizado por instituciones
 educativas, profesores y estudiantes. Este sistema tiene como
-objetivo principal facilitar la gestión eficiente de portafolios,
+objetivo principal facilitar la gestión eficiente de asignaturas,
 incluyendo la planificación, la comunicación y la evaluación.
 
 \subsection{\textbf{Alcance}}
 
 Esta especificación de requisitos está dirigida a usuarios y 
-administradores del sistema de gestión de portafolios. El sistema se 
-enfoca en la gestión de portafolios en el ámbito educativo, lo que 
+administradores del sistema de gestión de asignaturas. El sistema se 
+enfoca en la gestión de asignaturas en el ámbito educativo, lo que 
 incluye la planificación de programas académicos, la comunicación 
 entre profesores y estudiantes, y la evaluación del desempeño 
 académico. El software permitirá una gestión efectiva de las 
-portafolios, promoviendo un entorno de aprendizaje enriquecedor y 
+asignaturas, promoviendo un entorno de aprendizaje enriquecedor y 
 eficiente.
 \subsection{\textbf{Personal involucrado}}
 \vspace{10pt}
@@ -153,6 +179,15 @@ Información de contacto & Jordie.aquilar.martinez@utelvt.edu.ec \\
 \end{tabular}
 \vspace{10pt}
 
+\begin{tabular}{|c|c|}
+
+\hline
+Nombre & Pianina Zambrano  \\
+\hline
+Rol & Analista, arquitecto y desarrollador de software \\
+\hline
+Responsabilidad & Análisis de información, arquitectura y programación del Software  \\
+\end{tabular}
 \subsection{\textbf{Definiciones, acrónimos y abreviaturas}}
 
 \vspace{10pt}
@@ -162,7 +197,7 @@ Información de contacto & Jordie.aquilar.martinez@utelvt.edu.ec \\
 \hline
 \textit{Nombre} & \textit{Descripción}  \\
 \hline
-Usuario & Persona que usará el sistema para gestionar portafolios \\
+Usuario & Persona que usará el sistema para gestionar asignaturas \\
 \hline
 SGAI & Sistema de Gestión de Portafolios Integrado \\
 \hline
@@ -186,46 +221,47 @@ FEE & Factibilidad, exactitud y eficacia \\
 \hline
 Standard IEEE 830 - 1998 & IEEE-830 \\
 \hline
+
 \end{tabular}
 
-\begin{document}
 
 \newpage
+
 \subsection{\textbf{Resumen}}
-Este documento sobre el software de gestión de
-portafolio consta de tres secciones. En la primera
-sección se realiza una introducción al mismo y se
-proporciona un visón general de la especificación
-de requisitos del software de gestión de portafolio.
-En la segunda sesión del documento se realiza una
-descripción general del sistema, con el fin de
-conocer las principales funciones que este debe
-realizar.  
-Por último, la tercera sección del documento es
-aquella en la que se definen detalladamente los
-requisitos que debe satisfacer el sistema. Esta
-sección se centra en los aspectos no funcionales
-del sistema y cómo debe comportarse en términos de
-rendimiento, seguridad y calidad
+
+Este documento sobre el software de gestión de portafolios consta
+principalmente de tres secciones fundamentales. En la primera
+sección, se presenta una introducción que ofrece una visión general
+de la especificación de requisitos del software de gestión de 
+portafolios.
+La segunda sección se dedica a una descripción global del sistema,
+donde se detallan minuciosamente las funcionalidades del software
+para la gestión de portafolios, además de los recursos necesarios
+para su ejecución eficiente. Este análisis exhaustivo del sistema es
+crucial, ya que sienta las bases antes de la creación del software 
+de gestión de portafolios.
+En la tercera sección, se establecen con precisión los requisitos, 
+tanto directos como indirectos, que el sistema de gestión de 
+portafolios debe cumplir para su uso adecuado. Estos requisitos son 
+fundamentales para asegurar la factibilidad, precisión y eficacia
+del software durante su uso continuado en el ámbito educativo.
 
 \section{\textbf{Descripción general}}
-\subsection{\textbf{perspectiva del producto}}
 
-El sistema de la gestión de portafolio está
-enfocado a cubrir los requerimientos de la empresa,
-una plataforma de gestión de portafolio sólida y
-efectiva que satisfaga las necesidades de los
-usuarios y proporcione un valor significativo en la
-gestión de sus inversiones. La colaboración cercana
-con los usuarios y la retroalimentación constante
-son esenciales para garantizar que el producto
-cumpla con sus expectativas y requisitos.
+\subsection{\textbf{Descripción del producto}}
+
+Al completar el desarrollo del software de gestión de portafolios, y
+ejecutarse, proporcionará a los usuarios una interfaz organizada y
+eficiente para gestionar y acceder a los datos de portafolios, 
+incluyendo planes de estudio, comunicaciones y evaluaciones. La 
+interfaz reflejará de manera precisa y coherente la estructura y la 
+información tal y como se ha diseñado en la codificación del 
+software.
 
 \subsection{\textbf{Funcionalidad del Software}}
-\includegraphics[scale=0.6]{modelo_grafico (1).jpg}
 
-\subsection{\textbf{Características de los
-usuarios}}
+
+\subsection{\textbf{Características de los usuarios}}
 
 \vspace{10pt}
 
@@ -236,8 +272,7 @@ Tipo de usuario  & Usuario del Software \\
 \hline
 Formación & Universitaria \\
 \hline
-Actividades & Control y manejo del sistema en
-general  \\
+Actividades & Monitorización y gestión de Portafolios \\
 \hline
 
 \end{tabular}
@@ -245,43 +280,40 @@ general  \\
 \subsection{\textbf{Restricciones}}
 
 \begin{enumerate}
-\item 	Lenguaje y tecnologías en uso: java, PHPM y
-Admin.
-\item  tiempo
-\item disponibilidad de datos en tiempo real
-\item 	Cumplimiento normativo
-\item  El sistema deberá tener un diseño e
-implementación sencilla.
+\item Software desarrollado para sistema operativo windows 7 en 
+adelante
+\item  Lenguajes y tecnologías en uso: Java, PHPMyAdmin.
+\item  El sistema deberá tener un diseño e implementación sencilla.
 \end{enumerate}
 
 \subsection{\textbf{Suposiciones y dependencias}}
 \begin{enumerate}
-\item Se asume que los requisitos aquí descritos
-son estables.
-\item Los equipos en los que se vaya a ejecutar el
-sistema deben cumplir los requisitos antes
-indicados para garantizar una ejecución
+\item Se asume que los requisitos aquí descritos son estables.
+\item Los equipos en los que se vaya a ejecutar el sistema deben
+cumplir los requisitos antes indicados para garantizar una ejecución
 correcta de la misma.
 \end{enumerate}
+
 \section{\textbf{Descripción general}}
 
 \subsection{\textbf{Requerimientos Funcionales}}
+
+
 \vspace{15pt}
+
 \begin{tabular}{|c|c|} 
 \hline
-\textbf{Identificación del requerimiento:} & RF01 
-\\
+\textbf{Identificación del requerimiento:} & RF01  \\
 \hline
-\textbf{Nombre del Requerimiento}: &       
-Interfaz de usuario \\
+\textbf{Nombre del Requerimiento}: & Visualizar el contenido de cada 
+uno de los portafolios \\
 \hline
-\textbf{Características:} & Los usuario deberán
-identificarse para acceder al sistema  \\
+\textbf{Características:} & Permitirá únicamente la visualización de 
+todas las tareas y \\ & actividades que se carguen en un portafolio
+específico.  \\
 \hline
-\textbf{Descripción del requerimiento:} & El
-sistema podrá brindar 
-datos de visualización\\ & al usuario autorizado
-para que constate 
+\textbf{Descripción del requerimiento:} & El sistema podrá brindar 
+datos de visualización\\ & al usuario autorizado para que constate 
 la actividad de los portafolios \\
 \hline
 \textbf{Requerimiento NO funcional:} & RNF01 \\
@@ -289,26 +321,28 @@ la actividad de los portafolios \\
 \hline
 \textbf{Prioridad de requerimiento:} & Alta \\
 \hline
+
 \end{tabular}
 
+
+
 \vspace{15pt}
+
 \begin{tabular}{|c|c|} 
 \hline
-\textbf{Identificación del requerimiento:} & RF02 
-\\
+\textbf{Identificación del requerimiento:} & RF02  \\
 \hline
-\textbf{Nombre del Requerimiento}: &Seguridad de
-datos \\
+\textbf{Nombre del Requerimiento}: &Visualizar Guía de estudio y 
+Sílabo \\
 \hline
-\textbf{Características:} & Es fundamental para
-proteger \\ & la información financiera y personal
-de los usuarios \\
+\textbf{Características:} & Permitirá únicamente la visualización de
+la guía de  estudio y el\\ & sílabo que  se carguen en una 
+asignatura específica.  \\
 \hline
-\textbf{Descripción del requerimiento:} & El
-sistema podrá brindar 
-datos de visualización al \\ & usuario autorizado
-para que 
-monitorice los documentos cargados\\
+\textbf{Descripción del requerimiento:} & El sistema podrá brindar 
+datos de visualización al \\ & usuario autorizado para que 
+monitorice si los documentos cargados \\ & en esa asignatura son los 
+adecuados \\
 \hline
 \textbf{Requerimiento NO funcional:} & RNF01 \\
 \hline
@@ -317,49 +351,46 @@ monitorice los documentos cargados\\
 
 \end{tabular}
 
+
 \vspace{15pt}
+
 \begin{tabular}{|c|c|} 
 \hline
-\textbf{Identificación del requerimiento:} & RF03 
-\\
+\textbf{Identificación del requerimiento:} & RF03  \\
 \hline
-\textbf{Nombre del Requerimiento}: & Notificaciones
-y alertas  \\
+\textbf{Nombre del Requerimiento}: & Agregar asignatura nueva \\
 \hline
-\textbf{Características:} & La capacidad de
-configurar y \\ & recibir notificaciones y alertas
-personalizadas \\ & es una característica
-importante en la gestión de portafolio \\
+\textbf{Características:} & Le brindará al usuario un formulario que
+deberá llenar  con \\ & los datos de la nueva asignatura que desea 
+agregar  \\
 \hline
-\textbf{Descripción del requerimiento:} & Los
-usuarios deben tener \\ & la capacidad de
-personalizar \\ & las notificaciones y alertas
-según sus preferencias \\
+\textbf{Descripción del requerimiento:} & Permitirá que el 
+administrador de Portafolios añada  un\\ & portafolio  nueva dentro
+del sistema educativo \\
 \hline
 \textbf{Requerimiento NO funcional:} & RNF01 \\
 & RNF04  \\
 \hline
 \textbf{Prioridad de requerimiento:} & Alta \\
 \hline
+
 \end{tabular}
+
 
 \vspace{15pt}
 
 \begin{tabular}{|c|c|} 
 \hline
-\textbf{Identificación del requerimiento:} & RF04 
-\\
+\textbf{Identificación del requerimiento:} & RF04  \\
 \hline
-\textbf{Nombre del Requerimiento}: & Gestión de
-riesgos\\
+\textbf{Nombre del Requerimiento}: & Editar asignatura \\
 \hline
-\textbf{Características:} & identificación de los
-riesgos \\ & potenciales que  pueden afectar  el
-desempeño del portafolio.\\
+\textbf{Características:} & Le brinda al usuario el formulario 
+necesario para editar los datos de \\ &una asignatura ya agregada \\
 \hline
-\textbf{Descripción del requerimiento:} & Los
-riesgos pueden incluir\\ & factores económicos,
-políticos y de crédito, entre otros. \\
+\textbf{Descripción del requerimiento:} & Por medio de un formulario
+se cargan los datos ya registrados en\\ & una asignatura específica
+con la posibilidad de editar los mismos \\
 \hline
 \textbf{Requerimiento NO funcional:} & RNF01  \\
 \hline
@@ -372,31 +403,25 @@ políticos y de crédito, entre otros. \\
 
 \begin{tabular}{|c|c|} 
 \hline
-\textbf{Identificación del requerimiento:} & RF05 
-\\
+\textbf{Identificación del requerimiento:} & RF05  \\
 \hline
-\textbf{Nombre del Requerimiento}: &Asignación de
-recursos  \\
+\textbf{Nombre del Requerimiento}: & Eliminación de estudiantes \\
 \hline
-\textbf{Características:} & La asignación de
-recursos busca diversificar \\ & la inversión en
-diferentes clases de activos \\ & o estrategias
-de\\ & inversión para reducir el riesgo y maximizar
-el rendimiento \\
+\textbf{Características:} & Le otorgará privilegios al usuario para
+eliminar los estudiantes \\ & ue se encuentren matriculados en una 
+asignatura \\
 \hline
-\textbf{Descripción del requerimiento:} & Aquí se
-asignan los recursos \\ & identificados a las
-tareas o proyectos correspondientes \\
+\textbf{Descripción del requerimiento:} & Mediante una previa 
+consulta de los estudiantes\\ & que se encuentren matriculados en
+una determinada \\ &  asignatura el usuario podrá eliminar \\
 \hline
 \textbf{Requerimiento NO funcional:} & RNF01 \\
 & RNF02  \\
 \hline
 \textbf{Prioridad de requerimiento:} & Alta \\
 \hline
+
 \end{tabular}
-\newpage
-
-
 
 
 \vspace{15pt}
@@ -405,18 +430,19 @@ tareas o proyectos correspondientes \\
 \hline
 \textbf{Identificación del requerimiento:} & RF06  \\
 \hline
-\textbf{Nombre del Requerimiento}: & Modificar \\
+\textbf{Nombre del Requerimiento}: & Agregar nuevo estudiante a 
+asignatura \\
 \hline
-\textbf{Características:} & El Sistema de Gestión de portafolio
-permitirá al administrador \\ & modificar  \\ & los datos 
-personales del cliente, usuario e instructores. \\
+\textbf{Características:} & Permitirá que el usuario agregue un 
+nuevo \\ & estudiante en una determinada asignatura \\
 \hline
-\textbf{Descripción del requerimiento:} & Permite al administrador 
-modificar datos de los usuarios\\ & clientes,instructores,datos 
-personales y ventas, \\ & que lleve a cabo el Software. \\ 
+\textbf{Descripción del requerimiento:} & Mediante una previa
+consulta de los estudiantes que\\ & se encuentren registrados en el
+plantel educativo, \\ &  el usuario podrá agregarlos a cualquier 
+asignatura que desee \\
 \hline
 \textbf{Requerimiento NO funcional:} & RNF01 \\
-& RNF02  \\ & RNF05 \\
+& RNF02  \\
 \hline
 \textbf{Prioridad de requerimiento:} & Alta \\
 \hline
@@ -430,17 +456,18 @@ personales y ventas, \\ & que lleve a cabo el Software. \\
 \hline
 \textbf{Identificación del requerimiento:} & RF07  \\
 \hline
-\textbf{Nombre del Requerimiento}: & Gestionar portafolio. \\
+\textbf{Nombre del Requerimiento}: & Eliminación de estudiantes \\
 \hline
-\textbf{Características:} & El sistema permitirá la gestión del 
-portafolio. \\ 
+\textbf{Características:} & Le otorgará privilegios al usuario para 
+eliminar los estudiantes \\ &que se encuentren matriculados en una
+asignatura \\
 \hline
-\textbf{Descripción del requerimiento:} & Permite al administrador 
-generar informes  sobre el portafolio \\ &   requerido por el 
-usuario.\\ 
+\textbf{Descripción del requerimiento:} & Mediante una previa 
+consulta de los estudiantes que se\\ & encuentren matriculados en
+una determinada \\ &  asignatura el usuario podrá eliminar \\
 \hline
 \textbf{Requerimiento NO funcional:} & RNF01 \\
-& RNF02  \\
+& RNF03  \\
 \hline
 \textbf{Prioridad de requerimiento:} & Alta \\
 \hline
@@ -454,21 +481,20 @@ usuario.\\
 \hline
 \textbf{Identificación del requerimiento:} & RF08  \\
 \hline
-\textbf{Nombre del Requerimiento}: & registro del portafolio del
+\textbf{Nombre del Requerimiento}: & Configuración del perfil de
 usuario \\
 \hline
-\textbf{Características:} & Permitirá que se registren datos de los 
-perfiles autorizados \\ & para esta gestión de portafolio \\
+\textbf{Características:} & Permitirá que se modifiquen datos de los 
+perfiles autorizados \\ & para esta gestión de asignaturas \\
 \hline
-\textbf{Descripción del requerimiento:} & Permitira \\ & al usuario 
-la 
-capacidad de agregar informacion al portafolio \\ 
+\textbf{Descripción del requerimiento:} & Le otorgará al usuario el
+privilegio de editar \\ &los datos personales de su perfil como 
+nombre, foto, contraseña, \\ & o descargar una copia de seguridad \\
 \hline
 \textbf{Requerimiento NO funcional:} & RNF01 \\
 \hline
 \textbf{Prioridad de requerimiento:} & Alta \\
 \hline
-
 
 \end{tabular}
 
@@ -480,18 +506,17 @@ capacidad de agregar informacion al portafolio \\
 \hline
 \textbf{Identificación del requerimiento:} & RNF01  \\
 \hline
-\textbf{Nombre del Requerimiento}: & Agregar información imprecisa 
-\\ & Sistema de gestión de portafolio. \\
+\textbf{Nombre del Requerimiento}: & Interfaz sencilla e intuitiva
+para el usuario \\
 \hline
-\textbf{Características:} & El Sistema presentara información que 
-no sea requerida \\ & por el de usuario \\ & al momento de 
-interactuar con el sistema de gestión de portafolio.
+\textbf{Características:} & Interfaz sencilla e intuitiva para el
+usuario\\ & para que sea de fácil manejo a los usuarios del sistema.
 \\
 \hline
 \textbf{Descripción del requerimiento:} & El sistema debe tener una
 interfaz de uso intuitiva y sencilla.  \\
 \hline
-\textbf{Prioridad de requerimiento:} & baja \\
+\textbf{Prioridad de requerimiento:} & Alta \\
 \hline
 
 \end{tabular}
@@ -503,19 +528,16 @@ interfaz de uso intuitiva y sencilla.  \\
 \hline
 \textbf{Identificación del requerimiento:} & RNF02  \\
 \hline
-\textbf{Nombre del Requerimiento}: & Ayuda al usuario en el uso del 
-\\ & 
-Sistema de gestión de Portafolio \\
+\textbf{Nombre del Requerimiento}: & Consulta de Estudiantes \\
 \hline
-\textbf{Características:} & Permite que el usuario consulte 
-informacion del portafolio\\
+\textbf{Características:} & Permite que el usuario consulte los
+estudiantes\\
 \hline
-\textbf{Descripción del requerimiento:} & La interfaz del sistema 
-no contará con ningún \\ & sistema de ayuda o soporte para los 
-usuarios,\\ & lo que dificultará  la comprensión y el uso eficiente 
-del sistema \\ & de gestión de portafolio.\\
+\textbf{Descripción del requerimiento:} & Mediante un pequeño
+formulario el software permite lque el usuario \\ & pueda consultar
+desde la  base de datos los  estudiantes matriculados \\
 \hline
-\textbf{Prioridad de requerimiento:} & baja \\
+\textbf{Prioridad de requerimiento:} & Alta \\
 \hline
 
 \end{tabular}
@@ -526,19 +548,18 @@ del sistema \\ & de gestión de portafolio.\\
 \hline
 \textbf{Identificación del requerimiento:} & RNF03  \\
 \hline
-\textbf{Nombre del Requerimiento}: & Mantenimiento del sistema de 
-\\ & gestión de portafolio. \\
+\textbf{Nombre del Requerimiento}: & Notas de los estudiantes \\
 \hline
-\textbf{Características:} & El sistema de gestión de portafolio no 
-tendrá un manual de uso \\ & y manual de usuario para facilitar los 
-mantenimientos \\ & que serán realizados por el administrador.\\
+\textbf{Características:} & Permite que se genere un reporte de las
+notas de los estudiantes \\ & matriculados en una asignatura 
+especifica.\\
 \hline
-\textbf{Descripción del requerimiento:} & El sistema de gestión de 
-portafolio no \\ & puede disponer de una documentación fácilmente 
-actualizable que \\ & permita gestionar y dar mantenimiento \\ & 
-con el menor esfuerzo posible.\\
+\textbf{Descripción del requerimiento:} & Mediante un pequeño
+formulario el software permite  que el usuario\\ & pueda consultar
+desde la base de datos  las notas\\ & de los estudiantes 
+matriculados en una asignatura especifica \\
 \hline
-\textbf{Prioridad de requerimiento:} & baja \\
+\textbf{Prioridad de requerimiento:} & Alta \\
 \hline
 
 \end{tabular}
@@ -549,23 +570,17 @@ con el menor esfuerzo posible.\\
 \hline
 \textbf{Identificación del requerimiento:} & RNF04  \\
 \hline
-\textbf{Nombre del Requerimiento}: & Diseño de la interfaz a la 
-característica del sistema. \\
+\textbf{Nombre del Requerimiento}: & Calendario académico \\
 \hline
-\textbf{Características:} & El Sistema  no tendrá una interfaz de 
-usuario,\\ & teniendo en cuenta las características \\ & de la 
-gestión de portafolio.\\
+\textbf{Características:} & Otorga información sobre las fechas establecidas para las tareas y \\ & actividades de los portafolios.\\
 \hline
 
-\textbf{Descripción del requerimiento:} & La interfaz de usuario no 
-se ajustara a las características \\ & del portafolio ,dentro de lo 
-cual se incorporara el sistema \\ & de gestión de portafolio y el 
-inventario. \\
+\textbf{Descripción del requerimiento:} & En el calendario se reflejará con fecha exacta las actividades de cada\\ & asignatura, como tareas, y eventos educativos. \\
 \hline
-\textbf{Prioridad de requerimiento:} & baja \\
+\textbf{Prioridad de requerimiento:} & Alta \\
 \hline
-
 \end{tabular}
+
 \end{tabular}
 
 \vspace{15pt}
@@ -574,38 +589,59 @@ inventario. \\
 \hline
 \textbf{Identificación del requerimiento:} & RNF05  \\
 \hline
-\textbf{Nombre del Requerimiento}: & Diseño de la interfaz a la 
-característica del sistema. \\
+\textbf{Nombre del Requerimiento}: & Seguridad en información. \\
 \hline
-\textbf{Características:} &  El sistema de gestión de portafolio no garantizara un desempeño  \\ & en cuanto a los datos almacenados en el sistema ofreciéndole \\ &  una confiabilidad a esta misma.\\
+\textbf{Características:} & El Sistema garantizara a los usuarios \\ & una seguridad en cuanto a la información que se procede en el sistema. \\
 \hline
-
-\textbf{Descripción del requerimiento:} & No se garantizara el desempeño del sistema de gestión \\ & de portafolio a los diferentes usuarios . En este sentido \\ & la información almacenada o registros realizados \\ &  podrán ser consultados y actualizados permanentemente \\ &  y simultáneamente, sin que afecte el tiempo de respuesta. \\
+\textbf{Descripción del requerimiento:} & Garantizar la seguridad del sistema con respecto a la información \\ & datos que se manejen tales sean documentos, archivos y contraseñas. \\
 \hline
-\textbf{Prioridad de requerimiento:} & baja \\
+\textbf{Prioridad de requerimiento:} & Alta \\
 \hline
 
 \end{tabular}
+
+\subsection{\textbf{Requisitos comunes de las interfaces}}
+
+
+
+\subsubsection{Interfaces de usuario}
+La interfaz con el usuario consistirá en un conjunto de ventanas con botones, listas y campos de textos. Esta deberá ser construida específicamente para el sistema propuesto y, será visualizada desde un navegador de internet.
+
+\subsubsection{Interfaces de hardware}
+
+Sera necesario disponer de equipos de cómputos en perfecto estado con las siguientes características.
+
+\begin{enumerate}
+\item Adaptadores de red.
+\item Procesador de 1.66GHz o superior.
+\item Memoria mínima de 256Mb.
+\item Mouse.
+\item Teclado.
+\end{enumerate}
+
+
+\subsubsection{Interfaces de software}
+\item Sistema Operativo: Windows XP o superior.
+\item Explorador: Mozilla o Chrome.
+
+
+\subsubsection{Interfaces de comunicación}
+Los servidores y aplicaciones se comunicaran entre sí, mediante protocolos estándares en internet, siempre que sea posible. Por ejemplo, para transferir archivos o documentos deberán utilizarse protocolos existentes (FTP u otros convenientes).
+
+\subsection{\textbf{Requisitos funcionales}}
+
+\subsubsection{Requisito funcional 1}
+
+Autentificación de Usuarios: los usuarios deberán identificarse para acceder a cualquier parte del sistema.
+
+
+\subsubsection{Requisito funcional 2}
+
+Registrar Usuarios: El sistema permitirá al usuario (Administrador) registrarse. El usuario debe suministrar datos como: Nombre, Apellido, Email, Usuario y Password.
+
+\subsubsection{Requisito funcional 3}
+
+Modificar: Permite al administrador modificar la contraseña de entrada o algún archivo mal seleccionado.
 \end{tabular}
-
-\vspace{15pt}
-
-\begin{tabular}{|c|c|} 
-\hline
-\textbf{Identificación del requerimiento:} & RNF06  \\
-\hline
-\textbf{Nombre del Requerimiento}: & Acceso al portafolio \\
-\hline
-\textbf{Características:} & No garantiza al usuario el acceso al portafolio de acuerdo  \\ & a la información que posea.\\
-\hline
-
-\textbf{Descripción del requerimiento:} & No tendrá facilidad e 
-instrucciones  para  permitir el acceso a la  \\ & gestión de 
-portafolio   al personal autorizado\\ & a través del sistema con la 
-intención   de consultar \\ & y subir información pertinente de 
-cada uno. \\
-\hline
-\textbf{Prioridad de requerimiento:} & baja \\
-\hline
-
-\end{tabular}
+\end{document}
+\end{document}
